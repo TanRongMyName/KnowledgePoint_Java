@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGear1">#3868C5</color>
+    <color name="colorGear2">#20488B</color>
+    <color name="colorGear3">#5A87F0</color>
+    <color name="colorGear4">#4978D5</color>
+    <color name="colorGear5">#426EC7</color>
+    <color name="md_white">#FFFFFF</color>
+    <color name="md_divider">@android:color/darker_gray</color>
+    <color name="deep_green">#FF0900</color>
+    <color name="green">#00ff00</color>
+
+</resources>

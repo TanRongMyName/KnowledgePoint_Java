@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Android 知识点结合</string>
+
+    <string-array name="adapters">
+        <item>Alpha</item>
+        <item>Slide left</item>
+        <item>Slide right</item>
+        <item>Slide bottom</item>
+        <item>Scale</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>"濮阳之血"</item>
+        <item>"问道剑圣"</item>
+        <item>"激战牛首村"</item>
+        <item>"情深谊长"</item>
+        <item>"惊天十八剑"</item>
+        <item>"名扬燕国"</item>
+        <item>"临危受命"</item>
+        <item>"风云际会"</item>
+        <item>"易水送壮士"</item>
+        <item>"意外拦截"</item>
+        <item>"托孤重任"</item>
+        <item>"图穷匕见"</item>
+        <item>"亡命天涯"</item>
+    </string-array>
+    <string-array name="testData">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+    <!--Medical design-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--Recycle 嵌入 导致 事件冲突-->
+    <string name="cont_desc_dp">Display picture</string>
+    <string name="section">Section</string>
+    <string name="consider_angle">考虑角度</string>
+    <string name="ignore_child_requests">忽略child</string>
+    <string name="settings">设置</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="api_error_msg">api_error_msg</string>
+
+</resources>

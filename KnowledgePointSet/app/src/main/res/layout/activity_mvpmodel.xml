@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/dp_50"
+    android:layout_marginTop="@dimen/dp_40"
+    tools:context=".MVPModelACtivity">
+
+    <Button
+        android:id="@+id/lowuse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LowUse"
+        />
+
+    <Button
+        android:id="@+id/nomaluse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NormalUse"
+        />
+
+    <Button
+        android:id="@+id/superuse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SuperUse"
+         />
+</LinearLayout>

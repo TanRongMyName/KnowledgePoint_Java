@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--recycleview 添加分割线-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="@android:color/darker_gray"/>
+    <size android:height="4dp" android:width="4dp"/>
+</shape>
+

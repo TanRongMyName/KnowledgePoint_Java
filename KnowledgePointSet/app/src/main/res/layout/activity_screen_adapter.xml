@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScreenAdapterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="@dimen/dp_100">
+
+
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_50"
+        android:text="屏幕适配使用value-sw"
+        android:textSize="@dimen/sp_15"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_50"
+        android:textSize="@dimen/sp_15"
+        android:text="具体是使用了Androidstudio ScreemMatch"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="还有自定义控件这样将内部的控件按照 一定的比例缩放 点击返回"
+        android:onClick="onBackUp"
+        />
+    <intentcompany.tanrong.com.knowledgepointset.SelfView.ScreenAdaptaionRelaLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_400">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/beautifulgirle" />
+    </intentcompany.tanrong.com.knowledgepointset.SelfView.ScreenAdaptaionRelaLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="intentcompany.tanrong.com.knowledgepointset.LineRecycleActivity">
+    <Spinner
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/spinner"
+        android:layout_width="359dp"
+        android:tooltipText="动画选择"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="17dp"
+        android:layout_toEndOf="@+id/button">
+    </Spinner>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentStart="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="93dp"
+        android:onClick="deleResource"
+        android:text="删除元素" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentStart="true"
+        android:onClick="addResource"
+        android:text="添加元素" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:tooltipText="第二种动画选择"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button" />
+
+</RelativeLayout>
